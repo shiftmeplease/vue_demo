@@ -20,7 +20,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, defineProps, defineEmits,reactive, onUnmounted  } from "vue";
+import { ref, onMounted, reactive, onUnmounted  } from "vue";
 import SvgElement from "./SvgElement.vue";
 
 // const viewBox = `0 0 ${schemeData[0].sWidth}.00 ${schemeData[0].sHeight}.00`;
